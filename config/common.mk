@@ -153,6 +153,9 @@ $(call inherit-product, vendor/aosp/config/branding.mk)
 # GApps
 $(call inherit-product, vendor/gapps/config.mk)
 
+# CarrierSettings
+$(call inherit-product, vendor/aosp/config/carrier_settings.mk)
+
 # Fonts
 $(call inherit-product, vendor/aosp/config/fonts.mk)
 
