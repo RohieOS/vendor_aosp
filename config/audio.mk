@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/audio/notifications/End_note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/End_note.ogg \
     vendor/aosp/audio/notifications/Gentle_gong.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Gentle_gong.ogg \
     vendor/aosp/audio/notifications/Mallet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Mallet.ogg \
+    vendor/aosp/audio/notifications/Meow.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Meow.ogg \
     vendor/aosp/audio/notifications/Orders_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Orders_up.ogg \
     vendor/aosp/audio/notifications/Ping.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Ping.ogg \
     vendor/aosp/audio/notifications/Pipes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Pipes.ogg \
@@ -70,5 +71,5 @@ PRODUCT_COPY_FILES += \
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=The_big_adventure.ogg \
-    ro.config.notification_sound=Popcorn.ogg \
+    ro.config.notification_sound=Meow.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
