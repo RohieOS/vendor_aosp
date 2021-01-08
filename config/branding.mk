@@ -1,5 +1,5 @@
 # Set all versions
-ROHIE_BASE_VERSION := CatX
+ROHIE_BASE_VERSION := Meow
 ROHIE_VERSION := Beta
 ROHIE_MAINTAINER ?= Unknown
 ROHIE_DONATE_URL ?= Unknown
