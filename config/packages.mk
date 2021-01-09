@@ -1,7 +1,3 @@
-
-PRODUCT_PACKAGES += \
-    QtiSoundRecorder
-
 # Customizations
 PRODUCT_PACKAGES += \
     IconShapeSquareOverlay \
