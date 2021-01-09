@@ -1,3 +1,7 @@
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+
 # Customizations
 PRODUCT_PACKAGES += \
     IconShapeSquareOverlay \
