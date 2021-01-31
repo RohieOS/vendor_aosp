@@ -21,6 +21,12 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
+# Overlays
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
+
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
