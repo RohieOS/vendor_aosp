@@ -43,8 +43,3 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
 endif
 
-ifneq ($(filter OFFICIAL,$(ROHIE_BUILD_TYPE)),)
-PRODUCT_PACKAGES += \
-    Updates
-endif
-
