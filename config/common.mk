@@ -143,9 +143,6 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
     vendor/aosp/prebuilt/common/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model
 
-# Apex
-$(call inherit-product, vendor/aosp/config/apex.mk)
-
 # Audio
 $(call inherit-product, vendor/aosp/config/audio.mk)
 
