@@ -85,6 +85,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/sensitive_pn.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sensitive_pn.xml
 
+# broadcast actions whitelist
+PRODUCT_COPY_FILES += \
+    vendor/aosp/config/permissions/rohi-sysconfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/rohi-sysconfig.xml
+
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
