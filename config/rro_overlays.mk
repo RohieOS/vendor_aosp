@@ -3,6 +3,7 @@ PRODUCT_PACKAGES += \
     PixelSetupWizardAodOverlay \
     GBoardOverlay \
     GooglePermissionControllerOverlay \
+    PixelDocumentsUIGoogleOverlay \
     IconPackCircularPixelLauncherOverlay \
     IconPackCircularPixelThemePickerOverlay \
     IconPackFilledPixelLauncherOverlay \
