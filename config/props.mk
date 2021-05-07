@@ -39,8 +39,13 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.ime.bs_theme=true \
+    ro.com.google.ime.kb_pad_port_l=7 \
+    ro.com.google.ime.kb_pad_port_r=7 \
+    ro.com.google.ime.kb_pad_land_l=14 \
+    ro.com.google.ime.kb_pad_land_r=14 \
+    ro.com.google.ime.kb_pad_port_b=1 \
     ro.com.google.ime.theme_id=5 \
+    ro.com.google.ime.bs_theme=true \
     ro.com.google.ime.system_lm_dir=/product/usr/share/ime/google/d3_lms
 
 # SetupWizard configuration
