@@ -7,6 +7,10 @@ PRODUCT_PACKAGES += \
     IconShapeSquareOverlay \
     NavigationBarMode2ButtonOverlay
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     Stk
