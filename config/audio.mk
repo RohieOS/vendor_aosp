@@ -36,6 +36,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/audio/ringtones/Lost_and_found.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lost_and_found.ogg \
     vendor/aosp/audio/ringtones/Mash_up.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Mash_up.ogg \
     vendor/aosp/audio/ringtones/Monkey_around.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Monkey_around.ogg \
+    vendor/aosp/audio/ringtones/Rohie.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Rohie.ogg \
     vendor/aosp/audio/ringtones/Schools_out.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Schools_out.ogg \
     vendor/aosp/audio/ringtones/The_big_adventure.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/The_big_adventure.ogg \
     vendor/aosp/audio/ringtones/Zen_too.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Zen_too.ogg \
@@ -70,6 +71,6 @@ PRODUCT_COPY_FILES += \
 
 # Change default sounds
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.ringtone=The_big_adventure.ogg \
+    ro.config.ringtone=Rohie.ogg \
     ro.config.notification_sound=Meow.ogg \
     ro.config.alarm_alert=Bright_morning.ogg
