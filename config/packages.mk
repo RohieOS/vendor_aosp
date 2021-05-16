@@ -11,6 +11,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# ThemePicker
+PRODUCT_PACKAGES += \
+    ThemePicker
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     Stk
