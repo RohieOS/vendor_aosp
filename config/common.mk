@@ -174,7 +174,9 @@ $(call inherit-product, vendor/aosp/config/packages.mk)
 # Include common props
 $(call inherit-product, vendor/aosp/config/props.mk)
 
+# POSP Audio Plugins
+$(call inherit-product, packages/apps/Plugins/plugins.mk)
+
 # RRO Overlays
 $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
-
 
