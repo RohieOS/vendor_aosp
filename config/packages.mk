@@ -19,6 +19,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Stk
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updates
+
 # Root
 PRODUCT_PACKAGES += \
     adb_root
