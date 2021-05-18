@@ -36,5 +36,5 @@ function fixup_common_out_dir() {
     fi
 }
 
-
+rm -rf hardware/google/pixel/misc_writer
 export SKIP_ABI_CHECKS=true
