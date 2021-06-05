@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Gboard
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/bin/init.gboard.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.gboard.sh
+
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/aosp/overlay \
