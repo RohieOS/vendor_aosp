@@ -1,7 +1,6 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
     PixelSetupWizardAodOverlay \
-    GBoardOverlay \
     GooglePermissionControllerOverlay \
     PixelDocumentsUIGoogleOverlay \
     IconPackCircularPixelLauncherOverlay \
