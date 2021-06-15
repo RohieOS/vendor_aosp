@@ -1,5 +1,7 @@
 # Config
 PRODUCT_PACKAGES += \
+    StitchImage \
+    StitchImageService \
     SimpleDeviceConfig
 
 # Customizations
