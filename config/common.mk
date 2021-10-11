@@ -79,11 +79,9 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     vendor/aosp/overlay \
-    vendor/aosp/overlay-pixel \
 
-DEVICE_PACKAGE_OVERLAYS += \
-    vendor/aosp/overlay/common \
-    vendor/aosp/overlay-pixel/common
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/aosp/overlay/common
 
 # Sensitive Phone Numbers list
 PRODUCT_COPY_FILES += \
@@ -145,11 +143,6 @@ ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
 PRODUCT_PACKAGES += \
     PixelLiveWallpapersOverlay
 endif
-
-# Now Playing
-PRODUCT_COPY_FILES += \
-    vendor/aosp/prebuilt/common/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
-    vendor/aosp/prebuilt/common/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model
 
 # Apex
 $(call inherit-product, vendor/aosp/config/apex.mk)
