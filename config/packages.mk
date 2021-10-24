@@ -6,7 +6,7 @@ PRODUCT_PACKAGES += \
 
 # Customizations
 PRODUCT_PACKAGES += \
-    IconShapeSquareOverlay \
+#    IconShapeSquareOverlay \
     NavigationBarMode2ButtonOverlay
 
 # TouchGestures
@@ -36,7 +36,7 @@ endif
 endif
 
 # Overlays
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium \
     GesturalNavigationOverlayHidden

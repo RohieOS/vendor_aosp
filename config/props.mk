@@ -32,8 +32,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 
 # Enforce privapp-permissions whitelist
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=enforce
+# PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.control_privapp_permissions=enforce
 
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
